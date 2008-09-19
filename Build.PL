@@ -9,6 +9,8 @@ my $builder = Module::Build->new(
     dist_version_from   => 'lib/Pod/From/GoogleWiki.pm',
     build_requires => {
         'Test::More' => 0,
+        'Moose'      => 0,
+        'Text::SimpleTable' => 0,
     },
     add_to_cleanup      => [ 'Pod-From-GoogleWiki-*' ],
     create_makefile_pl => 'traditional',
