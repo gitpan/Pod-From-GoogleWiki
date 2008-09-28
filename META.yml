@@ -1,6 +1,6 @@
 ---
 name: Pod-From-GoogleWiki
-version: 0.06
+version: 0.07
 author:
   - 'Fayland Lam <fayland@gmail.com>'
 abstract: convert from Google Code wiki markup to POD
@@ -13,8 +13,8 @@ build_requires:
 provides:
   Pod::From::GoogleWiki:
     file: lib/Pod/From/GoogleWiki.pm
-    version: 0.06
-generated_by: Module::Build version 0.280801
+    version: 0.07
+generated_by: Module::Build version 0.3
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html
   version: 1.2
